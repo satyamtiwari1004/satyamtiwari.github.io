@@ -1,4 +1,3 @@
-$(function() {
   const d = new Date();
   const hours = d.getHours();
   const night = hours >= 19 || hours <= 7; // between 7pm and 7am
@@ -74,4 +73,4 @@ $(function() {
   sr.reveal('.experience', { viewFactor: 0.2 });
   sr.reveal('.featured-projects', { viewFactor: 0.1 });
   sr.reveal('.other-projects', { viewFactor: 0.05 });
-});
+

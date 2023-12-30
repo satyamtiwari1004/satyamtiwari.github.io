@@ -601,9 +601,14 @@ strong {
 }
 
 .intro__hello .wave-hand {
-    background-image: url(../img/emojis/wave.png);
+    background-image: url(../img/emojis/wave.gif);
     margin-left: 10px;
     cursor: pointer
+}
+
+.wave-hand{
+    width: 50px;
+    height: 40px;
 }
 
 .intro__hello .wave-hand.animated {
@@ -702,7 +707,7 @@ strong {
 }
 
 .intro__tagline .technologist {
-    background-image: url(../img/emojis/technologist.png)
+    background-image: url(../img/emojis/technologist.gif)
 }
 
 .intro__contact {
