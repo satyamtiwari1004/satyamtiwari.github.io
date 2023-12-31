@@ -601,7 +601,7 @@ strong {
 }
 
 .intro__hello .wave-hand {
-    background-image: url(../img/emojis/wave.gif);
+    background-image: url(../img/emojis/wave.png);
     margin-left: 10px;
     cursor: pointer
 }
