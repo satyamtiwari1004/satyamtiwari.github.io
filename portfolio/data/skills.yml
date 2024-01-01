@@ -3,6 +3,7 @@ languages:
   - Python
   - JavaScript
   - C
+  - HTML/CSS
 
 frameworks:
   - Spring Boot
@@ -12,14 +13,14 @@ frameworks:
   - Wordpress
 
 tools:
+  - Postman
+  - RabbitMQ
   - SonarQube
   - Git & Github
   - Azure DevOps
   - Chrome DevTools
-  - Postman
-  - RabbitMQ
 
-Database:
+database:
   - MySQL
   - Oracle
   - Postgre
