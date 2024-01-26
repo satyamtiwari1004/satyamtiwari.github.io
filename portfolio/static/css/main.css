@@ -1,67 +1,45 @@
 @font-face {
-    font-family: Apercu;
-    src: url(../fonts/apercu/Apercu-Light.eot);
-    src: url(../fonts/apercu/Apercu-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Light.woff2) format("woff2"), url(../fonts/apercu/Apercu-Light.woff) format("woff"), url(../fonts/apercu/Apercu-Light.ttf) format("truetype"), url(../fonts/apercu/Apercu-Light.svg#Apercu-Light) format("svg");
+    font-family: Google Sans;
+    src: url(../fonts/Google-Sans-Font/GoogleSans-Bold.ttf);
+    src: url(../fonts/Google-Sans-Font/GoogleSans-Bold.ttf) format("truetype");
     font-weight: 300;
     font-style: normal
 }
-
 @font-face {
-    font-family: Apercu;
-    src: url(../fonts/apercu/Apercu-LightItalic.eot);
-    src: url(../fonts/apercu/Apercu-LightItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-LightItalic.woff2) format("woff2"), url(../fonts/apercu/Apercu-LightItalic.woff) format("woff"), url(../fonts/apercu/Apercu-LightItalic.ttf) format("truetype"), url(../fonts/apercu/Apercu-LightItalic.svg#Apercu-LightItalic) format("svg");
+    font-family: Google Sans;
+    src: url(../fonts/Google-Sans-Font/GoogleSans-BoldItalic.ttf);
+    src: url(../fonts/Google-Sans-Font/GoogleSans-BoldItalic.ttf) format("truetype");
     font-weight: 300;
-    font-style: italic
-}
-
-@font-face {
-    font-family: Apercu;
-    src: url(../fonts/apercu/Apercu-Regular.eot);
-    src: url(../fonts/apercu/Apercu-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Regular.woff2) format("woff2"), url(../fonts/apercu/Apercu-Regular.woff) format("woff"), url(../fonts/apercu/Apercu-Regular.ttf) format("truetype"), url(../fonts/apercu/Apercu-Regular.svg#Apercu-Regular) format("svg");
-    font-weight: 400;
     font-style: normal
 }
-
 @font-face {
-    font-family: Apercu;
-    src: url(../fonts/apercu/Apercu-Italic.eot);
-    src: url(../fonts/apercu/Apercu-Italic.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Italic.woff2) format("woff2"), url(../fonts/apercu/Apercu-Italic.woff) format("woff"), url(../fonts/apercu/Apercu-Italic.ttf) format("truetype"), url(../fonts/apercu/Apercu-Italic.svg#Apercu-Italic) format("svg");
-    font-weight: 400;
-    font-style: italic
-}
-
-@font-face {
-    font-family: Apercu;
-    src: url(../fonts/apercu/Apercu-Medium.eot);
-    src: url(../fonts/apercu/Apercu-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Medium.woff2) format("woff2"), url(../fonts/apercu/Apercu-Medium.woff) format("woff"), url(../fonts/apercu/Apercu-Medium.ttf) format("truetype"), url(../fonts/apercu/Apercu-Medium.svg#Apercu-Medium) format("svg");
-    font-weight: 500;
+    font-family: Google Sans;
+    src: url(../fonts/Google-Sans-Font/GoogleSans-Italic.ttf);
+    src: url(../fonts/Google-Sans-Font/GoogleSans-Italic.ttf) format("truetype");
+    font-weight: 300;
     font-style: normal
 }
-
 @font-face {
-    font-family: Apercu;
-    src: url(../fonts/apercu/Apercu-MediumItalic.eot);
-    src: url(../fonts/apercu/Apercu-MediumItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-MediumItalic.woff2) format("woff2"), url(../fonts/apercu/Apercu-MediumItalic.woff) format("woff"), url(../fonts/apercu/Apercu-MediumItalic.ttf) format("truetype"), url(../fonts/apercu/Apercu-MediumItalic.svg#Apercu-MediumItalic) format("svg");
-    font-weight: 500;
-    font-style: italic
-}
-
-@font-face {
-    font-family: Apercu;
-    src: url(../fonts/apercu/Apercu-Bold.eot);
-    src: url(../fonts/apercu/Apercu-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Bold.woff2) format("woff2"), url(../fonts/apercu/Apercu-Bold.woff) format("woff"), url(../fonts/apercu/Apercu-Bold.ttf) format("truetype"), url(../fonts/apercu/Apercu-Bold.svg#Apercu-Bold) format("svg");
-    font-weight: 700;
+    font-family: Google Sans;
+    src: url(../fonts/Google-Sans-Font/GoogleSans-Medium.ttf);
+    src: url(../fonts/Google-Sans-Font/GoogleSans-Medium.ttf) format("truetype");
+    font-weight: 300;
     font-style: normal
 }
-
 @font-face {
-    font-family: Apercu;
-    src: url(../fonts/apercu/Apercu-BoldItalic.eot);
-    src: url(../fonts/apercu/Apercu-BoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-BoldItalic.woff2) format("woff2"), url(../fonts/apercu/Apercu-BoldItalic.woff) format("woff"), url(../fonts/apercu/Apercu-BoldItalic.ttf) format("truetype"), url(../fonts/apercu/Apercu-BoldItalic.svg#Apercu-BoldItalic) format("svg");
-    font-weight: 700;
-    font-style: italic
+    font-family: Google Sans;
+    src: url(../fonts/Google-Sans-Font/GoogleSans-MediumItalic.ttf);
+    src: url(../fonts/Google-Sans-Font/GoogleSans-MediumItalic.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal
 }
-
+@font-face {
+    font-family: Google Sans;
+    src: url(../fonts/Google-Sans-Font/GoogleSans-Regular.ttf);
+    src: url(../fonts/Google-Sans-Font/GoogleSans-Regular.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box
@@ -83,22 +61,41 @@ html {
 }
 
 body,
-html {
+html{
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #fff;
-    color: #444452;
-    font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+
+    --dot-bg: white;
+    --dot-color: rgba(0, 0, 0, 0.445);
+    --dot-size: 1px;
+    --dot-space: 22px;
+    background:
+      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      var(--dot-color);
+    color: #444447fc;
+    font-family: Google Sans, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     width: 100%
 }
 
+html .intro{
+    color:#0f0f0f;
+}
+
 body.night,
-html.night {
-    background-color: #171c28;
-    color: #afafbf
+html.night{
+    --dot-bg: black;
+    /* --dot-color: rgba(255, 255, 255, 0.197); */
+    --dot-size: 1px;
+    --dot-space: 22px;
+    background:
+      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      var(--dot-color);
+    color: #afafbf;
 }
 
 body.night ::-moz-selection,
@@ -174,7 +171,7 @@ img {
 
 strong {
     font-weight: 700;
-    color: #36363c
+    color: #2a2a2a
 }
 
 .emoji {
@@ -543,7 +540,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.75rem
+        font-size: 2rem
     }
 }
 
@@ -551,7 +548,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.5rem
+        font-size: 1.8rem
     }
 }
 
@@ -559,7 +556,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.4rem
+        font-size: 1.6rem
     }
 }
 
@@ -707,7 +704,7 @@ strong {
 }
 
 .intro__tagline .technologist {
-    background-image: url(../img/emojis/technologist.gif)
+    background-image: url(../img/emojis/rocket.png)
 }
 
 .intro__contact {
@@ -717,7 +714,7 @@ strong {
 
 @media screen and (max-width:550px) {
     .intro__contact {
-        font-size: 1rem
+        font-size: 1.15rem
     }
 }
 
@@ -843,7 +840,7 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 70px
 }
 

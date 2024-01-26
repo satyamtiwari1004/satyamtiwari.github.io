@@ -1,6 +1,21 @@
+name: Pricey
+url: https://github.com/satyamtiwari1004/pricey/
+code: https://github.com/satyamtiwari1004/pricey/
+description: Pricey is a web application that uses web scraping to extract prices and details from top e-commerce platforms for users. Users can also customise their shopping by setting price thresholds, and an email notification system alerts them when a selected product's price drops.
+used:
+  - Python
+  - Django
+  - Spring Boot
+  - Rest API
+  - BeautifulSoup
+  - MySQL
+  - TailWind CSS
+  - JavaScript
+...
+---
 name: Covid Info
-url: https://github.com/satyamtiwari1004
-code: https://github.com/satyamtiwari1004
+url: https://github.com/satyamtiwari1004/covidinfo/
+code: https://github.com/satyamtiwari1004/covidinfo/
 description: Developed a COVID tracking platform that locates nearby hospitals and cases, displays precautions, and sends SMS/email notifications for available vaccination slots, providing users with real-time and relevant pandemic information.
 used:
   - Django
@@ -15,7 +30,7 @@ used:
 name: RFID Door Lock/Unlock System
 url: https://github.com/satyamtiwari1004
 code: https://github.com/satyamtiwari1004
-description: Developed and implemented an innovative automatic door lock system using Raspberry Pi and RFID sensor.
+description: Developed and Implemented an automatic & innovative door lock/unlock system using RFID technology and it also helps to keep track of user data such as attendance & in-out timings.
 used:
   - Raspberry PI
   - RFID Sensor
@@ -23,23 +38,9 @@ used:
   - Python
 ...
 ---
-name: Pricey
-url: https://github.com/satyamtiwari1004
-code: https://github.com/satyamtiwari1004
-description: Launched a dynamic website using web scraping to extract prices and details from top ecommerce platforms. Users can customize their shopping by setting price thresholds, and an email notification system alerts them when a selected product's price drops.
-used:
-  - Python
-  - Django
-  - Rest API
-  - BeautifulSoup
-  - MySQL
-  - TailWind CSS
-  - JavaScript
-...
----
 name: QrCrypt
-url: https://github.com/satyamtiwari1004
-code: https://github.com/satyamtiwari1004
+url: https://github.com/satyamtiwari1004/qrcrypt/
+code: https://github.com/satyamtiwari1004/qrcrypt/
 description: Developed a project to securely share data over a communication channel using a QR code. Successfully implemented a secure data sharing mechanism through QR codes.
 used:
   - Python
@@ -50,8 +51,8 @@ used:
 ...
 ---
 name: CkEditor
-url: https://github.com/satyamtiwari1004
-code: https://github.com/satyamtiwari1004
+url: https://github.com/satyamtiwari1004/ckeditor/
+code: https://github.com/satyamtiwari1004/ckeditor/
 description: Developed a robust text editor using Python and Tkinter, resembling the functionality of Notepad++, with essential features including custom theme, formatting, and custom font support.
 used:
   - Python

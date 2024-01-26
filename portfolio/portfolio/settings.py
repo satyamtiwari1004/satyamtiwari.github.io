@@ -25,9 +25,9 @@ load_dotenv()
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','v1.localhost','localhost']
 
 
 # Application definition
@@ -40,10 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
-    'storages',
+    'django_hosts',
+     'storages',
 ]
 
 MIDDLEWARE = [
+    'django_hosts.middleware.HostsRequestMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -51,14 +53,17 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_hosts.middleware.HostsResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'portfolio.urls'
+ROOT_HOSTCONF = 'portfolio.hosts'
+DEFAULT_HOST = 'www'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [ os.path.join(BASE_DIR,'Templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -127,6 +132,8 @@ STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'static')
 ]
 
+# STATIC_ROOT=os.path.join(BASE_DIR,'staticroot')
+
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 # AWS configuration
@@ -142,10 +149,10 @@ AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME') # - Enter yo
 
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 
-AWS_S3_FILE_OVERWRITE = False
+AWS_S3_FILE_OVERWRITE = True
 
 STORAGES = {
-    # Media file (image) management   
+    # Media file (image) management
     "default": {
         "BACKEND": "storages.backends.s3boto3.S3StaticStorage",
     },
