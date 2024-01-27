@@ -1,0 +1,272 @@
+{%load static%}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="currentColor">
+    <title>Satyam Tiwari - Portfolio</title>
+    <link rel="stylesheet" href="{%static 'css/main.css' %}" />
+    <link rel="stylesheet" href="{%static 'css/loading.css' %}" />
+    <link
+      rel="icon"
+      type="image/gif"
+      href="{%static 'img/emojis/rocket.png' %}"
+      hreflang="en-us"
+    />
+  </head>
+  <body>
+    <!--Page Loading Animation
+    <div class="container" id="spinners">
+        <div class="spinners">
+          <div class="spinner-block">
+            <h2>Loading</h2>
+            <div class="spinner spinner-1"></div>
+          </div>    
+        </div>
+      </div>-->
+
+    <!--Switch Toggle-->
+    <div class="switch-wrapper">
+      <div class="sun"></div>
+      <div class="toggle-wrapper">
+        <input id="switch" type="checkbox" />
+        <label for="switch" id="toggle">Toggle</label>
+      </div>
+      <div class="moon"></div>
+    </div>
+
+    <!--Intro-->
+    <header class="intro">
+      <h1 class="intro__hello">
+        Hello there!
+        <span class="emoji wave-hand animated"></span>
+      </h1>
+
+      <h2 class="intro__tagline">
+        I'm <span class="name">Satyam Tiwari</span>, A  full-stack web developer crafting sleek interfaces and powerful back-end solutions for an exceptional digital journey
+        <span class="emoji technologist"></span>
+      </h2>
+
+      <a
+        class="status"
+        href="{%static 'pdf/Resume%20-%20Satyam%20Tiwari.pdf'%}"
+        target="_blank"
+      >
+        <div class="status__light">
+          <div class="status__light__ring"></div>
+          <div class="status__light__led"></div>
+        </div>
+        <div class="status__message">
+          Currently seeking full-time opportunities!
+        </div>
+      </a>
+
+      <h3 class="intro__contact">
+        <span>Get in touch </span>
+        <span class="emoji pointer"></span>
+        <span>
+          <a
+            href="mailto:satyamtiwari1004@gmail.com"
+            target="_blank"
+            class="highlight-link"
+            >satyamtiwari1004@gmail.com</a
+          >
+        </span>
+      </h3>
+    </header>
+
+    <!--Background-->
+    <section class="section background">
+      <div class="section__title">Background</div>
+      <div class="section__content">
+        <p>
+          I'm currently a System's Engineer at
+          <a class="underline-link" href="https://www.tcs.com/" target="_blank"
+            >Tata Consultancy Services</a
+          >
+          building things for the web with some awesome people. I recently
+          completed masters from
+          <a class="underline-link" href="https://mu.ac.in/" target="_blank"
+            >Mumbai University</a
+          >
+          in Computer Science Field.
+        </p>
+
+        <p>
+            As a full-stack web developer, I find joy in blending my technical skills with a passion for design, 
+            working towards the common goal of creating visually appealing and user-friendly applications. 
+            My focus is on building robust, scalable solutions while also ensuring that the end-user experiences are 
+            not only efficient but also aesthetically pleasing down to the pixel.
+        </p>
+
+        <p>
+          <strong>When I'm not in front of a computer screen</strong>, I'm
+          probably watching an exciting movie, playing my favorite sport, or
+          crossing off another item on my bucket list.
+        </p>
+      </div>
+    </section>
+
+    <!--Skills-->
+    <section class="section skills">
+      <div class="section__title">Technical Skills</div>
+      <div class="section__content">
+        <div class="skillz">
+          <div class="skillz__category">
+            <div class="skillz__category__label">Languages</div>
+            <ul>
+              {% for language in ski_dat.languages %}
+              <li class="skillz__category__item">{{language}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="skillz__category">
+            <div class="skillz__category__label">Frameworks</div>
+            <ul>
+              {% for framework in ski_dat.frameworks %}
+              <li class="skillz__category__item">{{framework}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="skillz__category">
+            <div class="skillz__category__label">Tools</div>
+            <ul>
+              {% for tool in ski_dat.tools %}
+              <li class="skillz__category__item">{{tool}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="skillz__category">
+            <div class="skillz__category__label">Database</div>
+            <ul>
+              {% for thing in ski_dat.database %}
+              <li class="skillz__category__item">{{thing}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Professional Experience-->
+    <section class="section experience">
+      <div class="section__title">Professional Experience</div>
+      <div class="section__content">
+        <div class="jobs">
+          {% for job in exp_data%}
+          <div class="job">
+            <div class="time-place">
+              <div class="job__company">
+                <a href="{{job.url}}" target="_blank">{{job.company}}</a>
+              </div>
+              <div class="job__time">{{job.time}}</div>
+            </div>
+            <div class="job__position">{{job.position}}</div>
+          </div>
+          {% endfor %}
+        </div>
+
+        <a
+          href="{%static 'pdf/Satyam Tiwari Resume.pdf'%}"
+          target="_blank"
+          class="arrow-link"
+          >View My Resume</a
+        >
+      </div>
+    </section>
+
+    <!--Featured Projects-->
+    <section class="section featured-projects">
+      <div class="section__title">Recent Projects</div>
+      <div class="section__content">
+        <div class="project blistabloc">
+          <figure class="project__pic">
+            <a
+              href="https://github.com/satyamtiwari1004/incognito-beta"
+              target="_blank"
+            >
+              <img
+                src="{%static 'img/projects/incognito-mockup.png'%}"
+                alt="Incognito Screenshot"
+              />
+            </a>
+          </figure>
+          <figcaption class="project__caption">
+            <div class="project__name">
+              <a
+                href="https://github.com/satyamtiwari1004/incognito-beta"
+                target="_blank"
+                >Incognito</a
+              >
+            </div>
+            <p>
+              Built a dynamic Django website with MySQL, JQuery, and JavaScript
+              to guide users in becoming cybersecurity experts. The platform
+              features an intuitive interface for easy navigation, a portfolio
+              builder enabling users to create portfolios in 5 minutes.
+            </p>
+          </figcaption>
+        </div>
+      </div>
+    </section>
+    <!--Other Projects-->
+
+    <section class="section other-projects">
+      <div class="section__title">Other Projects</div>
+      <div class="section__content">
+        {% for project in oth_pro_data %}
+        <div class="project">
+          <div class="project__name">
+            <a href="{{project.url}}" target="_blank" class="arrow-link"
+              >{{project.name}}</a
+            >
+          </div>
+          <p>{{project.description}}</p>
+          <div class="project__used">
+            {% for item in project.used %}
+            <span class="project__used__item">{{item}}</span>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    <!--Top Button-->
+    <button id="top-button">
+      <img src="{%static 'img/emojis/pointingup.png'%}" alt="" />
+    </button>
+    <!--Scripts
+    <script src="{%static 'js/scrollreveal.min.js'%}"></script>-->
+    <script src="{%static 'js/main.js'%}"></script>
+    <script src="{%static 'js/loading.js'%}"></script>
+  </body>
+  <!--Footer-->
+  <footer class="footer">
+    <div class="footer__copyright">
+      <div class="top">
+        <span></span>
+      </div>
+      <div class="bottom">
+        <span>Developed & Designed By Satyam</span>
+        <img
+          class="emoji"
+          src="{%static '/img/emojis/reckon.png'%}"
+          alt="emoji"
+        />
+        <span>2024</span>
+      </div>
+    </div>
+    <div class="footer__links">
+      {% for social in soc_data %}
+      <a
+        href="{{social.url}}"
+        target="_blank"
+        title="{{social.name}}"
+      >
+        <span class="text">{{social.name}}</span>
+        <img src="{{social.source}}" alt="{{social.name}}" />
+      </a>
+      {%endfor%}
+    </div>
+  </footer>
+</html>

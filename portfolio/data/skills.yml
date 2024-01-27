@@ -1,0 +1,28 @@
+languages:
+  - Java
+  - Python
+  - JavaScript
+  - C
+  - HTML/CSS
+
+frameworks:
+  - Spring Boot
+  - Django
+  - Maven
+  - React JS
+  - Wordpress
+
+tools:
+  - Postman
+  - RabbitMQ
+  - SonarQube
+  - Git & Github
+  - Azure DevOps
+  - Chrome DevTools
+
+database:
+  - MySQL
+  - Oracle
+  - Postgre
+  - Mongo DB
+
