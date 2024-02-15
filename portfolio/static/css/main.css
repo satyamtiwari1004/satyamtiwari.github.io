@@ -68,8 +68,8 @@ html{
     -moz-osx-font-smoothing: grayscale;
 
     --dot-bg: white;
-    --dot-color: rgba(0, 0, 0, 0.445);
-    --dot-size: 1px;
+    --dot-color: rgb(0 0 0 / 12%);
+    --dot-size: 2.3px;
     --dot-space: 22px;
     background:
       linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
