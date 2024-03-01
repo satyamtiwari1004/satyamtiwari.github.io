@@ -41,7 +41,7 @@ used:
 name: QrCrypt
 url: https://github.com/satyamtiwari1004/qrcrypt/
 code: https://github.com/satyamtiwari1004/qrcrypt/
-description: Developed a project to securely share data over a communication channel using a QR code. Successfully implemented a secure data sharing mechanism through QR codes.
+description: QrCrypt is a secure data sharing app that uses QR codes for encrypted communication. It employs AES encryption to maintain data confidentiality during transmission and allows users to securely upload encrypted data to their chosen cloud storage service for centralized storage.
 used:
   - Python
   - JavaScript
