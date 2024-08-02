@@ -84,13 +84,6 @@ Make sure you have the following installed:
 8. **Access the application:**
 Open your web browser and go to http://127.0.0.1:8000/ to view the application.
 
-## Usage
-
-1.	Register an account or log in if you already have one.
-2.	Add the URLs of the products you want to track.
-3.	Set your desired price thresholds for the products.
-4.	Wait for email notifications when the prices drop below your thresholds.
-
 ## Contributing
 
 Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
