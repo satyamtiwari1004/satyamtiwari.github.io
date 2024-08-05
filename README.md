@@ -19,7 +19,6 @@ Hi, I'm Satyam Rajesh Tiwari! I'm a passionate software developer with a strong 
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python, Django
-- **Database:** PostgreSQL
 - **Deployment:** AWS (EC2, S3, RDS)
 
 ## 🚀 Getting Started
@@ -33,7 +32,6 @@ Make sure you have the following installed:
 - Python 3.x
 - pip
 - virtualenv
-- PostgreSQL
 
 ### Installation
 
